@@ -6,7 +6,7 @@ import dp1 from "../img/dp1.png";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 z-50 shadow-md  z-50 ">
+    <header className="sticky top-0 z-50 ">
       <div className="px-4 sm:px-6 lg:pr-8 lg:pl-0">
         <div className="flex items-center justify-between h-16 -mb-px">
           <div className="flex grow text-md ml-4 font-bold">

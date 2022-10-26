@@ -116,13 +116,13 @@ function Mainpage() {
                 />
                 <Line
                   type="monotone"
-                  dataKey="uv"
+                  dataKey="Current"
                   stroke="#82ca9d"
                   strokeDasharray="3 4 5 2"
                 />
                 <Area
                   type="monotone"
-                  dataKey="uv"
+                  dataKey="Previous"
                   stroke="#8884d8"
                   fill="#8884d8"
                 />
@@ -171,43 +171,43 @@ function Mainpage() {
             <div className="bg-pop-yellow p-3  shadow-lg  primary-box-bg-color flex">
               <FaChartPie />
             </div>
-            <p className="flex-end justify-self-right ml-10 items-right">
+            <p className="flex-end text-sm justify-self-right ml-6 items-right">
               Polo blue T-Shirt
             </p>
-            <p className="flex-end justify-self-right ml-1  items-right">
+            <p className="flex-end justify-self-right ml-4  items-right">
               3.824
             </p>
           </div>
-          <div className="flex mt-2">
+          <div className="flex ml-4 mt-2">
             <div className="bg-pop-yellow p-3  shadow-lg  primary-box-bg-color flex">
               <FaChartPie />
             </div>
-            <p className="flex-end justify-self-right ml-1 items-right">
+            <p className="flex-end text-sm justify-self-right ml-6 items-right">
               Hoodle For Men
             </p>
-            <p className="flex-end justify-self-right ml-1  items-right">
+            <p className="flex-end justify-self-right ml-4  items-right">
               3.82k
             </p>
           </div>
-          <div className="flex mt-2">
+          <div className="flex mt-2 ml-4">
             <div className="bg-pop-yellow p-3  shadow-lg  primary-box-bg-color flex">
               <FaChartPie />
             </div>
-            <p className="flex-end justify-self-right ml-1 items-right">
+            <p className="flex-end text-sm justify-self-right ml-6 items-right">
               Red colour Cap
             </p>
-            <p className="flex-end justify-self-right ml-1  items-right">
+            <p className="flex-end justify-self-right ml-4  items-right">
               3.82k
             </p>
           </div>
-          <div className="flex mt-2">
+          <div className="flex mt-2 ml-4">
             <div className="bg-pop-yellow p-3  shadow-lg  primary-box-bg-color flex">
               <FaChartPie />
             </div>
-            <p className="flex-end justify-self-right ml-1 items-right">
+            <p className="flex-end text-sm justify-self-right ml-6 items-right">
               Pocket T-Shirt
             </p>
-            <p className="flex-end justify-self-right ml-1  items-right">
+            <p className="flex-end justify-self-right ml-4  items-right">
               3.82k
             </p>
           </div>
