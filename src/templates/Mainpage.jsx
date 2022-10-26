@@ -77,7 +77,7 @@ function Mainpage() {
     <div className=" rounded-xl 3xl:min-h-[350px] shadow-lg border border-gray-300 bg-white/75">
           
           <div className=" flex flex-col items-left pt-2 pb-3 px-6">
-            {/* <h className="text-md font ">User Activity</h> */}
+
                 <div className="flex">
                     <h>Top Product</h>
                      <p className="flex-end justify-self-right ml-10 items-right">
@@ -96,12 +96,12 @@ function Mainpage() {
                 width={500}
                 height={400}
                 data={data1}
-                // margin={{
-                //   top: 10,
-                //   right: 30,
-                //   left: 0,
-                //   bottom: 0,
-                // }}
+                margin={{
+                  top: 10,
+                  right: 30,
+                  left: 0,
+                  bottom: 0,
+                }}
               >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
@@ -158,19 +158,20 @@ function Mainpage() {
             </PieChart>
           </div>
         </div>
-        <div className="rounded-xl 3xl:min-h-[350px] shadow-lg border border-gray-300 flex flex-col  items-left pt-2 pb-3 px-6 bg-white/75">
-          <div className="flex">
-            <h>Top Product</h>
-            <p className="flex-end justify-self-right ml-10 items-right">
+        <div className="
+        rounded-xl 3xl:min-h-[350px] shadow-lg border border-gray-300 flex flex-col  items-left pt-2 pb-3 px-6 bg-white/75 ">
+          <div className="flex ml-4">
+            <h className="text-md font">Top Product</h>
+            <p className="flex-end justify-self-right ml-20 items-right">
               Weekly
             </p>
-            <FaAngleDown className="flex-end justify-self-right ml-2s mt-2 items-right" />
+            <FaAngleDown className="flex-end justify-self-right ml-2 mt-2 items-right" />
           </div>
-          <div className="flex">
+          <div className="flex ml-4 ">
             <div className="bg-pop-yellow p-3  shadow-lg  primary-box-bg-color flex">
               <FaChartPie />
             </div>
-            <p className="flex-end justify-self-right ml-1 items-right">
+            <p className="flex-end justify-self-right ml-10 items-right">
               Polo blue T-Shirt
             </p>
             <p className="flex-end justify-self-right ml-1  items-right">
