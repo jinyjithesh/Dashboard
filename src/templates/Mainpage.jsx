@@ -91,10 +91,10 @@ function Mainpage() {
                         <br />
                         16,534
                     </p>
-            <ResponsiveContainer width="100%" height="100%">
+          <div>
               <AreaChart
-                width={500}
-                height={400}
+                width={200}
+                height={250}
                 data={data1}
                 margin={{
                   top: 10,
@@ -127,7 +127,7 @@ function Mainpage() {
                   fill="#8884d8"
                 />
               </AreaChart>
-            </ResponsiveContainer>
+           </div>
           </div>
           {/* <div className='items-Right  flex flex-col pt-2 pb-3'>
     <h className="text-md font "><BsThreeDots/></h>
